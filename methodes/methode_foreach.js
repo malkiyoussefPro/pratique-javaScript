@@ -189,6 +189,7 @@ const items = [
            maxPrix = item.price;
         }
     });
+    
     //console.log(maxPrix);
     items.forEach(item => {
         if(item.price === maxPrix){

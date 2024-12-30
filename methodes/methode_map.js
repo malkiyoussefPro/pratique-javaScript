@@ -67,6 +67,7 @@ for(let i = 0; i < grades.length; i++){
 }
 
  */
+const grades = [10, 15, 20, 8];
 const validMap = grades.map(reussi => {
 
     if(reussi >= 10){
